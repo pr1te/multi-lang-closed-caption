@@ -1,0 +1,13 @@
+{
+  "ext": "ts",
+  "watch": [
+    "src",
+    "index"
+  ],
+  "ignore": [
+    "src/**/*.spec.ts"
+  ],
+  "env": {
+    "NODE_ENV": "dev"
+  }
+}

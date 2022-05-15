@@ -1,0 +1,33 @@
+/* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+
+    /* Language and Environment */
+    "target": "es2020",
+
+    /* Modules */
+    "baseUrl": "./",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "paths": {
+      "~/*": [ "./src/*" ]
+    },
+
+    /* JavaScript Support */
+    "allowJs": false,
+
+    /* Emit */
+    "outDir": "dist",
+    "sourceMap": true,
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+  },
+}
