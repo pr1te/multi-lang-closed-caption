@@ -7,4 +7,14 @@ export default {
   debug: helper.truth(helper.getEnv('DEBUG_MODE', false)),
 
   corsOriginWhitelist: helper.getEnv('CORS_WHITE_LIST', '').split(','),
+
+  aws: {
+    region: helper.getEnv('AWS_REGION'),
+    accessKeyId: helper.getEnv('AWS_ACCESS_KEY_ID'),
+    secretAccessKey: helper.getEnv('AWS_SECRET_ACCESS_KEY'),
+  },
+
+  storage: {
+    bucket: helper.getEnv('AWS_S3_BUCKET'),
+  },
 };
